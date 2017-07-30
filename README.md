@@ -6,7 +6,7 @@
 
 ## 介绍(Introduction)
 
-![demo](https://github.com/ZhengMingpei/pandocGUI/blob/master/demo.jpg)
+![demo](https://github.com/ZhengMingpei/pandocGUI/raw/master/demo.jpg)
 
 这是一个[pandoc](http://www.pandoc.org/)的GUI前端，适用于windows，在VS2013Express版上用c#编写。
 
