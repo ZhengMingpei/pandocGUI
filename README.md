@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+## 欢迎来到 pandocGUI 页面！(Welcome to pandocGUI pages!)
 
-You can use the [editor on GitHub](https://github.com/ZhengMingpei/pandocGUI/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+最后更新于2017/07/30。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Last updated on 2017/07/30**
 
-### Markdown
+这是一个pandoc的GUI前端，适用于windows，在VS2013Express版上用c#编写。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This is a GUI client on windows for pandoc, written by c# using VS2013 Express Version.
 
-```markdown
-Syntax highlighted code block
+## 介绍(Introduction)
 
-# Header 1
-## Header 2
-### Header 3
+从这个[网址](https://github.com/ZhengMingpei/pandocGUI)，你可在在1.0分支上拿到本项目的所有代码。
 
-- Bulleted
-- List
+From [there](https://github.com/ZhengMingpei/pandocGUI), On the **1.0** branch, you can find all the codes.
 
-1. Numbered
-2. List
+我希望这个工具可以让人在windows上更轻松地使用pandoc。
 
-**Bold** and _Italic_ and `Code` text
+I hope this tool can make it easy to use pandoc on windows.
 
-[Link](url) and ![Image](src)
-```
+我是今天才刚刚搞定它，[下载]下来体验一下pandoc吧！
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ZhengMingpei/pandocGUI/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+I just get it work today, [Download] it and feel the pandoc!
