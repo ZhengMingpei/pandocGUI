@@ -4,9 +4,9 @@
 
 **Last updated on 2017/07/30**
 
-这是一个pandoc的GUI前端，适用于windows，在VS2013Express版上用c#编写。
+这是一个[pandoc](http://www.pandoc.org/)的GUI前端，适用于windows，在VS2013Express版上用c#编写。
 
-This is a GUI client on windows for pandoc, written by c# using VS2013 Express Version.
+This is a GUI client on windows for [pandoc](http://www.pandoc.org/), written by c# using VS2013 Express Version.
 
 ## 介绍(Introduction)
 
@@ -18,6 +18,12 @@ From [there](https://github.com/ZhengMingpei/pandocGUI), On the **1.0** branch, 
 
 I hope this tool can make it easy to use pandoc on windows.
 
-我是今天才刚刚搞定它，[下载]下来体验一下pandoc吧！
+## 安装(Install)
 
-I just get it work today, [Download] it and feel the pandoc!
+请在使用本工具前先安装上[pandoc](http://www.pandoc.org/) 。
+
+Please install [pandoc](http://www.pandoc.org/) before using this tool.
+
+[下载本工具](https://github.com/ZhengMingpei/pandocGUI/blob/master/pandocGUI_1_0.zip)下来体验一下pandoc吧！
+
+[Download this tool](https://github.com/ZhengMingpei/pandocGUI/blob/master/pandocGUI_1_0.zip) and feel the pandoc!
