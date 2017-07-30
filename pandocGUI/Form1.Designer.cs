@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.checkedListBox_format = new System.Windows.Forms.CheckedListBox();
             this.textBox_result = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -37,13 +38,11 @@
             this.checkBox_pandoc = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox_filepath = new System.Windows.Forms.TextBox();
-            this.button_end = new System.Windows.Forms.Button();
             this.button_start = new System.Windows.Forms.Button();
             this.button_checkEvn = new System.Windows.Forms.Button();
             this.button_openfile = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.checkedListBox_format = new System.Windows.Forms.CheckedListBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -70,7 +69,6 @@
             // 
             // splitContainer1.Panel2
             // 
-            this.splitContainer1.Panel2.Controls.Add(this.button_end);
             this.splitContainer1.Panel2.Controls.Add(this.button_start);
             this.splitContainer1.Panel2.Controls.Add(this.button_checkEvn);
             this.splitContainer1.Panel2.Controls.Add(this.button_openfile);
@@ -78,6 +76,24 @@
             this.splitContainer1.Size = new System.Drawing.Size(504, 419);
             this.splitContainer1.SplitterDistance = 381;
             this.splitContainer1.TabIndex = 0;
+            // 
+            // checkedListBox_format
+            // 
+            this.checkedListBox_format.Enabled = false;
+            this.checkedListBox_format.FormattingEnabled = true;
+            this.checkedListBox_format.IntegralHeight = false;
+            this.checkedListBox_format.Items.AddRange(new object[] {
+            ".md",
+            ".txt",
+            ".epub",
+            ".doc",
+            ".docx",
+            ".html"});
+            this.checkedListBox_format.Location = new System.Drawing.Point(14, 166);
+            this.checkedListBox_format.MultiColumn = true;
+            this.checkedListBox_format.Name = "checkedListBox_format";
+            this.checkedListBox_format.Size = new System.Drawing.Size(351, 54);
+            this.checkedListBox_format.TabIndex = 19;
             // 
             // textBox_result
             // 
@@ -161,16 +177,6 @@
             this.textBox_filepath.TabIndex = 0;
             this.textBox_filepath.Text = "此处将会显示所选源文件的路径";
             // 
-            // button_end
-            // 
-            this.button_end.Enabled = false;
-            this.button_end.Location = new System.Drawing.Point(21, 299);
-            this.button_end.Name = "button_end";
-            this.button_end.Size = new System.Drawing.Size(75, 23);
-            this.button_end.TabIndex = 4;
-            this.button_end.Text = "终止转换";
-            this.button_end.UseVisualStyleBackColor = true;
-            // 
             // button_start
             // 
             this.button_start.Enabled = false;
@@ -218,24 +224,6 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // checkedListBox_format
-            // 
-            this.checkedListBox_format.Enabled = false;
-            this.checkedListBox_format.FormattingEnabled = true;
-            this.checkedListBox_format.IntegralHeight = false;
-            this.checkedListBox_format.Items.AddRange(new object[] {
-            ".md",
-            ".txt",
-            ".epub",
-            ".doc",
-            ".docx",
-            ".html"});
-            this.checkedListBox_format.Location = new System.Drawing.Point(14, 166);
-            this.checkedListBox_format.MultiColumn = true;
-            this.checkedListBox_format.Name = "checkedListBox_format";
-            this.checkedListBox_format.Size = new System.Drawing.Size(351, 54);
-            this.checkedListBox_format.TabIndex = 19;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -269,7 +257,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button_start;
-        private System.Windows.Forms.Button button_end;
         private System.Windows.Forms.TextBox textBox_result;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.CheckedListBox checkedListBox_format;
