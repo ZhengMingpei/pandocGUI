@@ -28,4 +28,4 @@ Please install [pandoc](http://www.pandoc.org/) before using this tool.
 
 [下载本工具](https://github.com/ZhengMingpei/pandocGUI/blob/master/pandocGUI_1_0.zip)下来体验一下pandoc吧！
 
-[Download this tool](https://github.com/ZhengMingpei/pandocGUI/blob/master/pandocGUI_1_0.zip) and feel the pandoc!
+[Download this tool](https://github.com/ZhengMingpei/pandocGUI/releases/download/v1.0/pandocGUI_1_0.zip) and feel the pandoc!
